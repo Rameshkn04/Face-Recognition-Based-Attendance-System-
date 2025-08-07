@@ -38,14 +38,93 @@ An AI-powered desktop application that automates attendance marking using real-t
 - MySQL server installed
 - Webcam connected
 - Twilio account (optional for SMS alerts)
+---
+## 🚀 Installation Steps
 
-### 📥 Installation Steps
+### 1. 📥 Clone the Repository
 
-1. **Clone the repository**
+```bash 
+git clone https://github.com/Rameshkn04/Face-Recognition-Based-Attendance-System-.git
+cd Face-Recognition-Based-Attendance-System-
+```
+---
+
+
+### 2. 📦 Install Python Dependencies
+
+Make sure you're in the project directory, then run:
 
 ```bash
-git clone https://github.com/Rameshkn04/Face-Recognition-Based-Attendance-System-.git
-cd Face-Recognition-Based-Attendance-System-
-git clone https://github.com/Rameshkn04/Face-Recognition-Based-Attendance-System-.git
-cd Face-Recognition-Based-Attendance-System-
+pip install -r requirements.txt
+```
+### 3. 🛠️ Set Up MySQL Database
+
+1. Open **phpMyAdmin** or any MySQL client.
+2. Create a new database (e.g., `attendance_db`).
+3. Import the provided `.sql` file (if available), or create tables manually based on your project files (e.g., `student.py`).
+
+### 4. 🔐 Configure Credentials
+
+Create a `config.py` file in the root directory of your project and add your credentials:
+
+```python
+# config.py
+
+TWILIO_SID = "ACxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+TWILIO_TOKEN = "your_twilio_auth_token"
+
+DB_HOST = "localhost"
+DB_USER = "root"
+DB_PASSWORD = "your_mysql_password"
+DB_NAME = "attendance_db"
+```
+---
+
+### 5. 🖥️ Run the Application
+
+Launch the application using the following command:
+
+```bash
+python main.py
+```
+If you're using a specific Python version or full path, use:
+```bash
+C:/Users/your_username/AppData/Local/Programs/Python/Python311/python.exe main.py
+```
+6. ⏹️ Closing the Terminal or Stopping a Script
+To stop a running Python script, press:
+
+```bash
+Ctrl + C
+```
+To exit the terminal session, type:
+```bash
+exit
+```
+If you're using VS Code, click the 🗑️ (trash icon) in the terminal tab to close it.
+
+📄 requirements.txt (Example)
+```text
+Copy
+Edit
+opencv-python
+face-recognition
+Pillow
+pyttsx3
+SpeechRecognition
+mysql-connector-python
+pyjokes
+wikipedia
+twilio
+```
+Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+## 👨‍💻 Author
+
+**Ramesh K N**  
+🎓 B.E. in AI & ML, CMR Institute of Technology  
+🔗 [LinkedIn](https://www.linkedin.com/in/ramesh-kn)  
+💻 [GitHub](https://github.com/Rameshkn04)
 
