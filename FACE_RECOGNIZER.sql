@@ -1,0 +1,1 @@
+select*from facial_recognition.student;
