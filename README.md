@@ -124,6 +124,7 @@ pip install -r requirements.txt
 ## 👨‍💻 Authors
 
 **Ramesh K N** 
+ and 
 **Prajwal B GOwda**
 🎓 B.E. in AI & ML, CMR Institute of Technology  
 🔗 [LinkedIn](https://www.linkedin.com/in/ramesh-kn)  
