@@ -125,7 +125,7 @@ pip install -r requirements.txt
 
 **Ramesh K N** 
  and 
-**Prajwal B GOwda**
+**Prajwal B Gowda**
 🎓 B.E. in AI & ML, CMR Institute of Technology  
 🔗 [LinkedIn](https://www.linkedin.com/in/ramesh-kn)  
 💻 [GitHub](https://github.com/Rameshkn04)
