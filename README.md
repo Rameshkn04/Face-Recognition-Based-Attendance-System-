@@ -121,9 +121,10 @@ Install dependencies:
 ```bash
 pip install -r requirements.txt
 ```
-## 👨‍💻 Author
+## 👨‍💻 Authors
 
-**Ramesh K N**  
+**Ramesh K N** 
+**Prajwal B GOwda**
 🎓 B.E. in AI & ML, CMR Institute of Technology  
 🔗 [LinkedIn](https://www.linkedin.com/in/ramesh-kn)  
 💻 [GitHub](https://github.com/Rameshkn04)
